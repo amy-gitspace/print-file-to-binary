@@ -1,0 +1,9 @@
+f= open('TestTimingData.csv','rb')
+f1=f.read()
+# l1=len(f1)
+# for i in range(l1):
+#     print(bin(f1[i]))
+    
+# print(f1)
+print(bin(f1[1]))
+print(hex(f1[1]))
